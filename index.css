@@ -179,19 +179,13 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.5rem;
   font-weight: 600;
-  color: var(--silver-light);
+  color: var(--silver);
   display: flex;
   align-items: center;
   gap: 10px;
   white-space: nowrap;
 }
-.logo-img {
-  width: 44px;
-  height: 44px;
-  object-fit: contain;
-  border-radius: 6px;
-  filter: drop-shadow(0 2px 6px rgba(192,192,192,0.3));
-}
+
 .logo span { background: var(--metallic); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
 
 .nav-links {
@@ -1919,15 +1913,20 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .logo {
     position: absolute;
     left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    font-size: 1.15rem;
+    gap: 7px;
+    text-align: center;
+  }
+
+  .logo-text {
+    
     transform: translateX(-50%);
     font-size: 1.15rem;
     gap: 7px;
   }
-  .logo-img {
-    width: 34px;
-    height: 34px;
-  }
-
+  
   /* Cart button stays on right */
   .cart-btn {
     order: 1;
