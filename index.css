@@ -1900,6 +1900,41 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .nav-links, .nav-cta { display: none; }
   .hamburger { display: flex; }
 
+  /* Mobile navbar: hamburger LEFT, logo CENTER, cart RIGHT */
+  .nav-inner {
+    position: relative;
+    justify-content: space-between;
+    gap: 0;
+    padding: 0 16px;
+  }
+
+  /* Hamburger moves to far left */
+  .hamburger {
+    order: -1;
+    margin-left: 0;
+    flex-shrink: 0;
+  }
+
+  /* Logo centers absolutely so it sits in the middle regardless of siblings */
+  .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.15rem;
+    gap: 7px;
+  }
+  .logo-img {
+    width: 34px;
+    height: 34px;
+  }
+
+  /* Cart button stays on right */
+  .cart-btn {
+    order: 1;
+    margin-left: auto;
+    flex-shrink: 0;
+  }
+
   .hero { padding: 110px 20px 60px; gap: 40px; }
   .hero-title { font-size: 2.4rem; }
   .hero-stats { gap: 20px; }
