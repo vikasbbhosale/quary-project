@@ -1749,6 +1749,8 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   aspect-ratio: 4/3;
   background: var(--black-light);
   overflow: hidden;
+  border-radius: 10px;
+  
 }
 .va-img img {
   width: 100%;
@@ -1756,6 +1758,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   object-fit: contain;
   padding: 20px;
   transition: transform 0.4s ease;
+  border-radius: 20px;
 }
 .va-card:hover .va-img img { transform: scale(1.05); }
 
