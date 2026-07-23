@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SAQHOMEDECOR | Premium Outdoor Furniture</title>
+  <link rel="stylesheet" href="index.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="#" >
+        <!-- <img src="image copy 16.png" alt="SAQAHOMEDECOR Logo" class="logo-img" /> -->
+        <samp class="logo">SAQHOMEDECOR</samp>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="cart-btn" id="cartBtn" onclick="openCart()" aria-label="View Cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+      <button class="nav-cta" onclick="openModal(null)">Enquire Now</button>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#categories">Categories</a>
+      <a href="#contact">Contact</a>
+      <a href="#" onclick="openModal(null)">Enquire Now</a>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-bg-pattern"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Crafted for the Outdoors</p>
+      <h1 class="hero-title">Where <em>Elegance</em><br>Meets the Open Air</h1>
+      <p class="hero-sub">Premium teak & canvas outdoor furniture — designed for retailers, wholesalers, and exporters
+        worldwide.</p>
+      <div class="hero-actions">
+        <a href="#products" class="btn-primary">Explore Collection</a>
+        <a href="#contact" class="btn-outline">Get in Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span>30+</span>
+          <p>Countries Served</p>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span>200+</span>
+          <p>Product Variants</p>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span>10+</span>
+          <p>Years Experience</p>
+        </div>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="hero-img-wrap">
+        <img src="image copy 11.png" alt="Premium Teak Sling Chair" />
+        <div class="hero-badge">New Collection 2025</div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT STRIP ===== -->
+  <section class="about-strip" id="about">
+    <div class="strip-inner">
+      <div class="strip-item">
+        <i class="fa-solid fa-tree"></i>
+        <p>Sustainably Sourced Teak</p>
+      </div>
+      <div class="strip-item">
+        <i class="fa-solid fa-globe"></i>
+        <p>Global Export Ready</p>
+      </div>
+      <div class="strip-item">
+        <i class="fa-solid fa-certificate"></i>
+        <p>ISO Certified Quality</p>
+      </div>
+      <div class="strip-item">
+        <i class="fa-solid fa-boxes-stacked"></i>
+        <p>Bulk Orders Welcome</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUCTS ===== -->
+  <section class="products" id="products">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Our Collection</p>
+        <h2 class="section-title">Signature Outdoor Pieces</h2>
+        <p class="section-sub">Each piece is handcrafted using premium teak and weather-resistant canvas, built to last
+          through seasons.</p>
+      </div>
+
+      <div class="product-grid">
+
+        <!-- Product 1: image copy 3.png = Square iron bar cage fire pit -->
+        <div class="product-card" data-product="Square Bar Cage Fire Pit — Matte Black">
+          <div class="product-img-wrap">
+            <img src="image copy 3.png" alt="Square Bar Cage Fire Pit" loading="lazy" />
+            <div class="product-overlay">
+              <button class="overlay-btn" onclick="openModal('Square Bar Cage Fire Pit — Matte Black')">
+                <i class="fa-solid fa-paper-plane"></i> Quick Enquiry
+              </button>
+            </div>
+            <span class="product-badge">Bestseller</span>
+          </div>
+          <div class="product-info">
+            <div class="product-meta">
+              <span class="product-category">Fire Pit</span>
+              <span class="product-material">Iron + Steel</span>
+            </div>
+            <h3 class="product-name">Square Bar Cage Fire Pit</h3>
+            <p class="product-variant">Matte Black — Vertical Bar Frame with Ash Tray Base</p>
+            <p class="product-desc">A bold square fire pit enclosed in a vertical iron bar cage on an open-frame stand with a flat bottom ash-collection tray. Logs burn visibly from all four sides, creating a dramatic focal point for patios and gardens.</p>
+            <ul class="product-features">
+              <li><i class="fa-solid fa-check"></i> Heavy-Gauge Iron Bar Cage Frame</li>
+              <li><i class="fa-solid fa-check"></i> Flat Bottom Ash Collection Tray</li>
+              <li><i class="fa-solid fa-check"></i> 360° Open Flame Visibility</li>
+              <li><i class="fa-solid fa-check"></i> Matte Black Powder-Coat Finish</li>
+            </ul>
+            <div class="product-footer">
+              <div class="product-moq">
+                <i class="fa-solid fa-box"></i>
+                <span>Min. Order: <strong>20 units</strong></span>
+              </div>
+              <div class="product-actions">
+                <button class="btn-cart" onclick="addToCart('Square Bar Cage Fire Pit — Matte Black', 'image copy 3.png')">
+                  <i class="fa-solid fa-cart-plus"></i> Add to Cart
+                </button>
+                <button class="btn-query" onclick="openModal('Square Bar Cage Fire Pit — Matte Black')">
+                  Query Now <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2: image copy 9.png = Wire goblet/wine-glass fire pit -->
+        <div class="product-card" data-product="Wire Goblet Fire Pit — Pedestal Base">
+          <div class="product-img-wrap">
+            <img src="image copy 9.png" alt="Wire Goblet Fire Pit" loading="lazy" />
+            <div class="product-overlay">
+              <button class="overlay-btn" onclick="openModal('Wire Goblet Fire Pit — Pedestal Base')">
+                <i class="fa-solid fa-paper-plane"></i> Quick Enquiry
+              </button>
+            </div>
+            <span class="product-badge new">New Arrival</span>
+          </div>
+          <div class="product-info">
+            <div class="product-meta">
+              <span class="product-category">Fire Pit</span>
+              <span class="product-material">Steel Wire</span>
+            </div>
+            <h3 class="product-name">Wire Goblet Fire Pit</h3>
+            <p class="product-variant">Wine-Glass Form — Open Wire Cage on Pedestal Base</p>
+            <p class="product-desc">A sculptural wine-glass shaped fire pit with an open steel wire cage body, inner cast iron fire bowl, and a spoked pedestal base. Stunning with logs or blazing with fire — a statement piece for any outdoor setting.</p>
+            <ul class="product-features">
+              <li><i class="fa-solid fa-check"></i> Wine-Glass Silhouette Design</li>
+              <li><i class="fa-solid fa-check"></i> Open Steel Wire Cage Body</li>
+              <li><i class="fa-solid fa-check"></i> Inner Cast Iron Fire Bowl</li>
+              <li><i class="fa-solid fa-check"></i> Spoked Pedestal Base</li>
+            </ul>
+            <div class="product-footer">
+              <div class="product-moq">
+                <i class="fa-solid fa-box"></i>
+                <span>Min. Order: <strong>20 units</strong></span>
+              </div>
+              <div class="product-actions">
+                <button class="btn-cart" onclick="addToCart('Wire Goblet Fire Pit — Pedestal Base', 'image copy 9.png')">
+                  <i class="fa-solid fa-cart-plus"></i> Add to Cart
+                </button>
+                <button class="btn-query" onclick="openModal('Wire Goblet Fire Pit — Pedestal Base')">
+                  Query Now <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3: image copy 11.png = Round bowl fire pit on 4-leg stand with perforated shelf -->
+        <div class="product-card" data-product="Round Bowl Fire Pit — 4-Leg Stand with Shelf">
+          <div class="product-img-wrap">
+            <img src="image copy 11.png" alt="Round Bowl Fire Pit on 4-Leg Stand" loading="lazy" />
+            <div class="product-overlay">
+              <button class="overlay-btn" onclick="openModal('Round Bowl Fire Pit — 4-Leg Stand with Shelf')">
+                <i class="fa-solid fa-paper-plane"></i> Quick Enquiry
+              </button>
+            </div>
+            <span class="product-badge premium">Premium</span>
+          </div>
+          <div class="product-info">
+            <div class="product-meta">
+              <span class="product-category">Fire Pit</span>
+              <span class="product-material">Cast Iron</span>
+            </div>
+            <h3 class="product-name">Round Bowl Fire Pit on Stand</h3>
+            <p class="product-variant">Wide Bowl — 4-Leg Frame with Perforated Lower Shelf</p>
+            <p class="product-desc">A premium wide-diameter round cast iron fire bowl on four solid cylindrical legs with a perforated lower storage shelf. Perfect for garden dining areas, resort terraces, and high-end outdoor events.</p>
+            <ul class="product-features">
+              <li><i class="fa-solid fa-check"></i> Wide Cast Iron Fire Bowl</li>
+              <li><i class="fa-solid fa-check"></i> Four Solid Cylindrical Legs</li>
+              <li><i class="fa-solid fa-check"></i> Perforated Lower Storage Shelf</li>
+              <li><i class="fa-solid fa-check"></i> Heat-Treated Matte Black Finish</li>
+            </ul>
+            <div class="product-footer">
+              <div class="product-moq">
+                <i class="fa-solid fa-box"></i>
+                <span>Min. Order: <strong>20 units</strong></span>
+              </div>
+              <div class="product-actions">
+                <button class="btn-cart" onclick="addToCart('Round Bowl Fire Pit — 4-Leg Stand with Shelf', 'image copy 11.png')">
+                  <i class="fa-solid fa-cart-plus"></i> Add to Cart
+                </button>
+                <button class="btn-query" onclick="openModal('Round Bowl Fire Pit — 4-Leg Stand with Shelf')">
+                  Query Now <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+
+      </div>
+
+      <!-- View All Button -->
+      <div class="view-all-wrap">
+        <button class="btn-view-all" onclick="openViewAll()">
+          <i class="fa-solid fa-grip"></i>
+          View All Products
+          <span class="view-all-count">5 Items</span>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+ 
+
+  <!-- ===== WHY US ===== -->  <section class="why-us">
+    <div class="container">
+      <div class="why-grid">
+        <div class="why-text">
+          <p class="section-eyebrow">Why Choose Us</p>
+          <h2 class="section-title">Built for Business,<br>Crafted with Care</h2>
+          <p class="why-desc">We work directly with retailers, wholesalers, and exporters to deliver premium outdoor
+            furniture at competitive wholesale pricing — with no compromise on quality.</p>
+          <div class="why-features">
+            <div class="why-feat">
+              <div class="why-icon"><i class="fa-solid fa-ship"></i></div>
+              <div>
+                <h4>Export-Ready Packaging</h4>
+                <p>All products are packed for sea freight with custom branding options available.</p>
+              </div>
+            </div>
+            <div class="why-feat">
+              <div class="why-icon"><i class="fa-solid fa-palette"></i></div>
+              <div>
+                <h4>Custom Colour & Design</h4>
+                <p>Canvas colours, logo embroidery, and frame finishes available for bulk orders.</p>
+              </div>
+            </div>
+            <div class="why-feat">
+              <div class="why-icon"><i class="fa-solid fa-headset"></i></div>
+              <div>
+                <h4>Dedicated Account Manager</h4>
+                <p>Every wholesale client gets a dedicated point of contact from enquiry to delivery.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="why-image">
+          <div class="why-img-stack">
+            <img src="image copy.png" alt="Beach Set" class="why-img-back" />
+            <img src="image.png" alt="Lounge Chair" class="why-img-front" />
+            <div class="why-tag">
+              <i class="fa-solid fa-star"></i>
+              <span>Trusted by 500+ businesses globally</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header light">
+        <p class="section-eyebrow">Get In Touch</p>
+        <h2 class="section-title">Ready to Place an Order?</h2>
+        <p class="section-sub">Submit your enquiry and our team will get back to you within 24 hours with pricing and
+          availability.</p>
+      </div>
+      <div class="contact-cards">
+        <div class="contact-card">
+          <i class="fa-solid fa-envelope"></i>
+          <h4>Email Us</h4>
+          <p>Info@saqhomedecor.com</p>
+        </div>
+        <div class="contact-card">
+          <i class="fa-solid fa-phone"></i>
+          <h4>Call Us</h4>
+          <p>+91 88649 40222</p>
+        </div>
+        <div class="contact-card">
+          <i class="fa-brands fa-whatsapp"></i>
+          <h4>WhatsApp</h4>
+          <p>+91 88649 40222</p>
+        </div>
+      </div>
+      <div class="contact-cta">
+        <button class="btn-primary large" onclick="openModal(null)">
+          <i class="fa-solid fa-paper-plane"></i> Send an Enquiry
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" >
+            <!-- <img src="image copy 16.png" alt="SAQAHOMEDECOR Logo" class="logo-img" /> -->
+            <span class="logo-text">SAQHOMEDECOR</span>
+          </a>
+          <p>Premium outdoor furniture for retailers, wholesalers & exporters worldwide.</p>
+          <div class="social-links">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h5>Products</h5>
+          <ul>
+            <li><a href="#products">Lounge Chairs</a></li>
+            <li><a href="#products">Beach Sets</a></li>
+            <li><a href="#products">Umbrellas</a></li>
+            <li><a href="#products">Custom Orders</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h5>Company</h5>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Export Policy</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h5>Trade</h5>
+          <ul>
+            <li><a href="#">Retailer Program</a></li>
+            <li><a href="#">Wholesaler Program</a></li>
+            <li><a href="#">Export Enquiry</a></li>
+            <li><a href="#">Catalogue Download</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ===== CONTACT INFO STRIP ===== -->
+      <div class="footer-contact-strip">
+        <div class="fcs-col">
+          <h5><i class="fa-solid fa-location-dot"></i> Address</h5>
+          <p>Block C 132 / 133, Jigar Colony,<br>Moradabad 244001,<br>State — U.P.; Country — India.</p>
+        </div>
+        <div class="fcs-col">
+          <h5><i class="fa-solid fa-phone"></i> Cell</h5>
+          <p>(+91) 88649 40222</p>
+          <h5 style="margin-top:14px"><i class="fa-brands fa-whatsapp"></i> WhatsApp</h5>
+          <p>+91 88649 40222</p>
+          <h5 style="margin-top:14px"><i class="fa-solid fa-envelope"></i> Emails</h5>
+          <p>Info@saqhomedecor.com</p>
+        </div>
+        <div class="fcs-col">
+          <h5><i class="fa-solid fa-clock"></i> Hours</h5>
+          <p><strong>Monday – Friday:</strong> 9AM – 5PM</p>
+          <p><strong>Saturday:</strong> 10AM – 4PM</p>
+          <p><strong>Sunday:</strong> 10AM – 4PM</p>
+        </div>
+        <div class="fcs-col fcs-notice">
+          <h5><i class="fa-solid fa-triangle-exclamation"></i> Important Notice</h5>
+          <p><strong>* Beware of FRAUDS & CHEATS</strong> using our or similar name(s) & email(s) — In case of any query
+            or question contact us at our direct line <strong>+91 88649 40222</strong>.</p>
+          <p style="margin-top:10px"><strong>* Kindly Re-Confirm & Verify</strong> if you ever receive any change in
+            Bank or Contact information — It is requested to our clients to verify & cross check if they receive any
+            e-mail containing change(s) in any of our contact or bank information. It may be a trick of scammers/cheats.
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 SAQAHOMEDECOR. All rights reserved.</p>
+        <p>Handcrafted with <i class="fa-solid fa-heart"></i> for the outdoors</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== QUERY MODAL ===== -->
+  <div class="modal-overlay" id="modalOverlay" onclick="handleOverlayClick(event)">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" onclick="closeModal()" aria-label="Close">&times;</button>
+
+      <div class="modal-header">
+        <div class="modal-icon"><i class="fa-solid fa-paper-plane"></i></div>
+        <h2 id="modalTitle">Product Enquiry</h2>
+        <p id="modalProduct" class="modal-product-name"></p>
+        <p class="modal-sub">Fill in your details and we'll get back to you within 24 hours.</p>
+      </div>
+
+      <form class="query-form" id="queryForm" onsubmit="handleSubmit(event)" novalidate>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Full Name <span class="req">*</span></label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address <span class="req">*</span></label>
+            <input type="email" id="email" name="email" placeholder="john@company.com" required />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="phone">Mobile Number <span class="req">*</span></label>
+            <input type="tel" id="phone" name="phone" placeholder="+1 234 567 8900" required />
+          </div>
+          <div class="form-group">
+            <label for="country">Country <span class="req">*</span></label>
+            <select id="country" name="country" required>
+              <option value="">Select Country</option>
+              <option>Afghanistan</option>
+              <option>Albania</option>
+              <option>Algeria</option>
+              <option>Argentina</option>
+              <option>Australia</option>
+              <option>Austria</option>
+              <option>Bangladesh</option>
+              <option>Belgium</option>
+              <option>Brazil</option>
+              <option>Canada</option>
+              <option>Chile</option>
+              <option>China</option>
+              <option>Colombia</option>
+              <option>Czech Republic</option>
+              <option>Denmark</option>
+              <option>Egypt</option>
+              <option>Ethiopia</option>
+              <option>Finland</option>
+              <option>France</option>
+              <option>Germany</option>
+              <option>Ghana</option>
+              <option>Greece</option>
+              <option>Hong Kong</option>
+              <option>Hungary</option>
+              <option>India</option>
+              <option>Indonesia</option>
+              <option>Iran</option>
+              <option>Iraq</option>
+              <option>Ireland</option>
+              <option>Israel</option>
+              <option>Italy</option>
+              <option>Japan</option>
+              <option>Jordan</option>
+              <option>Kenya</option>
+              <option>Kuwait</option>
+              <option>Malaysia</option>
+              <option>Mexico</option>
+              <option>Morocco</option>
+              <option>Netherlands</option>
+              <option>New Zealand</option>
+              <option>Nigeria</option>
+              <option>Norway</option>
+              <option>Oman</option>
+              <option>Pakistan</option>
+              <option>Philippines</option>
+              <option>Poland</option>
+              <option>Portugal</option>
+              <option>Qatar</option>
+              <option>Romania</option>
+              <option>Russia</option>
+              <option>Saudi Arabia</option>
+              <option>Singapore</option>
+              <option>South Africa</option>
+              <option>South Korea</option>
+              <option>Spain</option>
+              <option>Sri Lanka</option>
+              <option>Sweden</option>
+              <option>Switzerland</option>
+              <option>Taiwan</option>
+              <option>Thailand</option>
+              <option>Turkey</option>
+              <option>UAE</option>
+              <option>Uganda</option>
+              <option>Ukraine</option>
+              <option>United Kingdom</option>
+              <option>United States</option>
+              <option>Vietnam</option>
+              <option>Zimbabwe</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="location">City / Location <span class="req">*</span></label>
+            <input type="text" id="location" name="location" placeholder="New York, USA" required />
+          </div>
+          <div class="form-group">
+            <label for="section">I am a <span class="req">*</span></label>
+            <div class="radio-group">
+              <label class="radio-label">
+                <input type="radio" name="section" value="Retailer" required />
+                <span class="radio-custom"></span>
+                Retailer
+              </label>
+              <label class="radio-label">
+                <input type="radio" name="section" value="Wholesaler" />
+                <span class="radio-custom"></span>
+                Wholesaler
+              </label>
+              <label class="radio-label">
+                <input type="radio" name="section" value="Exporter" />
+                <span class="radio-custom"></span>
+                Exporter
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group full">
+            <label for="quantity">Required Quantity <span class="req">*</span></label>
+            <div class="quantity-wrap">
+              <input type="number" id="quantity" name="quantity" min="20" step="10" placeholder="Minimum 20 units"
+                required />
+              <span class="qty-badge">Min. 20</span>
+            </div>
+            <p class="form-hint"><i class="fa-solid fa-circle-info"></i> Minimum order quantity is 20 units / sets</p>
+          </div>
+        </div>
+
+        <div class="form-group full">
+          <label for="product">Product of Interest</label>
+          <input type="text" id="product" name="product" readonly />
+        </div>
+
+        <div class="form-group full">
+          <label for="message">Additional Message</label>
+          <textarea id="message" name="message" rows="3"
+            placeholder="Any specific requirements, custom colours, branding needs..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit">
+          <span id="submitText"><i class="fa-solid fa-paper-plane"></i> Submit Enquiry</span>
+          <span id="submitLoading" style="display:none"><i class="fa-solid fa-spinner fa-spin"></i> Sending...</span>
+        </button>
+
+      </form>
+
+      <!-- Success State -->
+      <div class="form-success" id="formSuccess" style="display:none">
+        <div class="success-icon"><i class="fa-solid fa-circle-check"></i></div>
+        <h3>Enquiry Sent!</h3>
+        <p>Thank you for reaching out. Our team will contact you within <strong>24 hours</strong>.</p>
+        <button class="btn-primary" onclick="closeModal()">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== VIEW ALL MODAL ===== -->
+  <div class="modal-overlay viewall-overlay" id="viewAllOverlay" onclick="handleViewAllClick(event)">
+    <div class="modal viewall-modal" role="dialog" aria-modal="true" aria-label="All Products">
+      <button class="modal-close" onclick="closeViewAll()" aria-label="Close">&times;</button>
+
+      <div class="viewall-header">
+        <div class="viewall-header-text">
+          <p class="section-eyebrow" style="margin-bottom:6px;">Full Catalogue</p>
+          <h2>All Products</h2>
+          <p>Select products to add to cart or send an enquiry directly.</p>
+        </div>
+        <div class="viewall-header-actions">
+          <button class="viewall-cart-btn" onclick="closeViewAll(); openCart()">
+            <i class="fa-solid fa-cart-shopping"></i>
+            View Cart <span id="viewAllCartCount">0</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="viewall-grid" id="viewAllGrid"></div><!-- /viewall-grid -->
+
+      <div class="viewall-footer">
+        <button class="btn-outline" onclick="closeViewAll()">
+          <i class="fa-solid fa-arrow-left"></i> Back to Page
+        </button>
+        <button class="btn-submit viewall-enquire-all" onclick="closeViewAll(); cartEnquiry()">
+          <i class="fa-solid fa-paper-plane"></i> Enquire for Cart Items
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== CART MODAL ===== -->
+  <div class="modal-overlay" id="cartOverlay" onclick="handleCartOverlayClick(event)">
+    <div class="modal cart-modal" role="dialog" aria-modal="true" aria-label="Your Cart">
+      <button class="modal-close" onclick="closeCart()" aria-label="Close">&times;</button>
+
+      <div class="modal-header cart-modal-header">
+        <div class="modal-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+        <h2>Your Cart</h2>
+        <p class="modal-sub">Products selected for enquiry</p>
+      </div>
+
+      <div class="cart-body" id="cartBody">
+        <!-- cart items rendered by JS -->
+      </div>
+
+      <div class="cart-footer" id="cartFooter">
+        <button class="btn-clear" onclick="clearCart()">
+          <i class="fa-solid fa-trash"></i> Clear All
+        </button>
+        <button class="btn-submit cart-enquire-btn" onclick="cartEnquiry()">
+          <i class="fa-solid fa-paper-plane"></i> Enquire for All Items
+        </button>
+      </div>
+
+      <!-- Empty state -->
+      <div class="cart-empty" id="cartEmpty" style="display:none">
+        <div class="cart-empty-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+        <h3>Your cart is empty</h3>
+        <p>Add products using the "Add to Cart" button on each product card.</p>
+        <button class="btn-primary" onclick="closeCart()">Browse Products</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== WHATSAPP FLOAT ===== -->
+  <a class="whatsapp-float" href="https://wa.me/918864940222" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- ===== BACK TO TOP ===== -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top"
+    onclick="window.scrollTo({top:0,behavior:'smooth'})">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <script>
+    // ===== CART STATE =====
+    let cart = []; // [{name, image, qty}]
+
+    function addToCart(productName, imageSrc) {
+      const existing = cart.find(i => i.name === productName);
+      if (existing) {
+        existing.qty += 1;
+      } else {
+        cart.push({ name: productName, image: imageSrc, qty: 1 });
+      }
+      updateCartCount();
+      updateViewAllCartBadge();
+      showCartToast(productName);
+    }
+
+    function removeFromCart(productName) {
+      cart = cart.filter(i => i.name !== productName);
+      updateCartCount();
+      renderCart();
+    }
+
+    function changeQty(productName, delta) {
+      const item = cart.find(i => i.name === productName);
+      if (!item) return;
+      item.qty = Math.max(1, item.qty + delta);
+      renderCart();
+    }
+
+    function clearCart() {
+      cart = [];
+      updateCartCount();
+      renderCart();
+    }
+
+    function updateCartCount() {
+      const total = cart.reduce((sum, i) => sum + i.qty, 0);
+      const badge = document.getElementById('cartCount');
+      badge.textContent = total;
+      badge.style.display = total > 0 ? 'flex' : 'none';
+    }
+
+    // ===== CART MODAL =====
+    function openCart() {
+      renderCart();
+      document.getElementById('cartOverlay').classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeCart() {
+      document.getElementById('cartOverlay').classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    function handleCartOverlayClick(e) {
+      if (e.target === document.getElementById('cartOverlay')) closeCart();
+    }
+
+    function renderCart() {
+      const body = document.getElementById('cartBody');
+      const footer = document.getElementById('cartFooter');
+      const empty = document.getElementById('cartEmpty');
+
+      if (cart.length === 0) {
+        body.style.display = 'none';
+        footer.style.display = 'none';
+        empty.style.display = 'flex';
+        return;
+      }
+
+      body.style.display = 'block';
+      footer.style.display = 'flex';
+      empty.style.display = 'none';
+
+      body.innerHTML = cart.map((item, idx) => `
+        <div class="cart-item" style="animation-delay:${idx * 0.06}s">
+          <div class="cart-item-img">
+            <img src="${item.image}" alt="${item.name}" />
+          </div>
+          <div class="cart-item-info">
+            <p class="cart-item-name">${item.name}</p>
+            <p class="cart-item-moq"><i class="fa-solid fa-circle-info"></i> Min. order: 100 units per item</p>
+            <div class="cart-qty-row">
+              <div class="cart-qty-ctrl">
+                <button onclick="changeQty('${item.name.replace(/'/g, "\\'")}', -1)" aria-label="Decrease">
+                  <i class="fa-solid fa-minus"></i>
+                </button>
+                <span>${item.qty}</span>
+                <button onclick="changeQty('${item.name.replace(/'/g, "\\'")}', 1)" aria-label="Increase">
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+              </div>
+              <button class="cart-remove" onclick="removeFromCart('${item.name.replace(/'/g, "\\'")}')">
+                <i class="fa-solid fa-trash"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function cartEnquiry() {
+      if (cart.length === 0) return;
+      const productList = cart.map(i => `${i.name} (x${i.qty})`).join(', ');
+      closeCart();
+      const overlay = document.getElementById('modalOverlay');
+      document.getElementById('product').value = productList;
+      const label = document.getElementById('modalProduct');
+      label.textContent = `${cart.length} product${cart.length > 1 ? 's' : ''} selected`;
+      label.style.display = 'block';
+      overlay.classList.add('active');
+      document.body.style.overflow = 'hidden';
+      document.getElementById('formSuccess').style.display = 'none';
+      document.getElementById('queryForm').style.display = 'flex';
+    }
+
+    // ===== TOAST =====
+    function showCartToast(name) {
+      const existing = document.getElementById('cartToast');
+      if (existing) existing.remove();
+      const toast = document.createElement('div');
+      toast.id = 'cartToast';
+      toast.className = 'cart-toast';
+      toast.innerHTML = `<i class="fa-solid fa-circle-check"></i> <span><strong>${name.split('—')[0].trim()}</strong> added to cart</span>`;
+      document.body.appendChild(toast);
+      requestAnimationFrame(() => toast.classList.add('show'));
+      setTimeout(() => {
+        toast.classList.remove('show');
+        setTimeout(() => toast.remove(), 400);
+      }, 2800);
+    }
+
+    // ===== ENQUIRY MODAL =====
+    function openModal(productName) {
+      const overlay = document.getElementById('modalOverlay');
+      const productField = document.getElementById('product');
+      const productLabel = document.getElementById('modalProduct');
+
+      if (productName) {
+        productField.value = productName;
+        productLabel.textContent = productName;
+        productLabel.style.display = 'block';
+      } else {
+        productField.value = '';
+        productLabel.style.display = 'none';
+      }
+
+      overlay.classList.add('active');
+      document.body.style.overflow = 'hidden';
+      document.getElementById('formSuccess').style.display = 'none';
+      document.getElementById('queryForm').style.display = 'flex';
+    }
+
+    function closeModal() {
+      document.getElementById('modalOverlay').classList.remove('active');
+      document.body.style.overflow = '';
+      document.getElementById('queryForm').reset();
+    }
+
+    function handleOverlayClick(e) {
+      if (e.target === document.getElementById('modalOverlay')) closeModal();
+    }
+
+    // ===== FORM SUBMIT =====
+    function handleSubmit(e) {
+      e.preventDefault();
+      const form = e.target;
+      if (!form.checkValidity()) { form.reportValidity(); return; }
+      const qty = parseInt(document.getElementById('quantity').value);
+      if (qty < 100) { alert('Minimum order quantity is 100 units.'); return; }
+      document.getElementById('submitText').style.display = 'none';
+      document.getElementById('submitLoading').style.display = 'inline';
+      setTimeout(() => {
+        form.style.display = 'none';
+        document.getElementById('formSuccess').style.display = 'flex';
+      }, 1500);
+    }
+
+    // ===== HAMBURGER =====
+    document.getElementById('hamburger').addEventListener('click', function () {
+      document.getElementById('mobileMenu').classList.toggle('open');
+      this.classList.toggle('active');
+    });
+
+    // ===== BACK TO TOP =====
+    window.addEventListener('scroll', function () {
+      document.getElementById('backToTop').classList.toggle('show', window.scrollY > 400);
+      document.querySelector('.navbar').classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // ===== SCROLL REVEAL =====
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.product-card, .why-feat, .contact-card, .stat').forEach(el => observer.observe(el));
+
+    // ===== QTY VALIDATION =====
+    document.getElementById('quantity').addEventListener('input', function () {
+      this.setCustomValidity(this.value < 100 && this.value !== '' ? 'Minimum order quantity is 100 units.' : '');
+    });
+
+    // ===== VIEW ALL MODAL =====
+    const viewAllProducts = [
+
+      // image.png = Teak folding deck chair, olive-cream stripe canvas, flat teak armrests
+     
+
+      // image copy.png = 2 teak high-back beach chairs + large fringe umbrella, sky blue stripe
+      
+      // image copy 2.png = Same beach chair + fringe umbrella set (sky blue stripe, bulk)
+     
+
+      // image copy 3.png = Square iron bar cage fire pit, vertical bars, flat ash tray base
+      {
+        name: 'Square Bar Cage Fire Pit — Matte Black',
+        image: 'image copy 3.png',
+        badge: 'Bestseller', badgeClass: '',
+        category: 'Fire Pit', material: 'Iron + Steel',
+        title: 'Square Bar Cage Fire Pit',
+        variant: 'Matte Black — Vertical Bar Frame with Ash Tray Base',
+        description: 'A bold square fire pit enclosed in a vertical iron bar cage on an open-frame stand with a flat bottom ash-collection tray. Logs burn visibly from all four sides, creating a dramatic focal point for patios and gardens.',
+        features: ['Heavy-Gauge Iron Bar Cage Frame', 'Flat Bottom Ash Collection Tray', '360° Open Flame Visibility', 'Matte Black Powder-Coat Finish'],
+        minOrder: '20 units'
+      },
+
+      // image copy 4.png = Same square bar cage fire pit (standard size variant)
+     
+      // image copy 6.png = Iron Amber fragrance identity card (Bold · Refined · Powerful)
+     
+
+     
+
+      // image copy 9.png = Wire goblet/wine-glass shaped fire pit — two views (logs + fire)
+      
+
+      // image copy 11.png = Round bowl fire pit on 4 cylindrical legs, perforated lower shelf
+      {
+        name: 'Round Bowl Fire Pit — 4-Leg Stand with Shelf',
+        image: 'image copy 11.png',
+        badge: 'Premium', badgeClass: 'premium',
+        category: 'Fire Pit', material: 'Cast Iron',
+        title: 'Round Bowl Fire Pit on Stand',
+        variant: 'Wide Bowl — 4-Leg Frame with Perforated Lower Shelf',
+        description: 'A premium wide-diameter round cast iron fire bowl on four solid cylindrical legs with a perforated lower storage shelf. Perfect for garden dining areas, resort terraces, and high-end outdoor events.',
+        features: ['Wide Cast Iron Fire Bowl', 'Four Solid Cylindrical Legs', 'Perforated Lower Storage Shelf', 'Heat-Treated Matte Black Finish'],
+        minOrder: '20 units'
+      },
+
+       {
+        name: 'Modern Wireframe Fire Basket',
+        image: 'image copy 11.png',
+        badge: 'New Arrival', badgeClass: 'premium',
+        category: 'Fire Pits & Heating', material: 'Powder-Coated Steel',
+        title: 'Modern Black Metal Fire Basket',
+        variant: 'Black / Small, Black',
+        description: 'Create a warm and inviting outdoor atmosphere with this modern metal fire basket. Featuring an elegant wireframe design and durable steel construction, this wood-burning fire pit provides both functional heating and striking visual appeal',
+        features: ['Wide Cast Iron Fire Bowl', 'Four Solid Cylindrical Legs', 'Perforated Lower Storage Shelf', 'Heat-Treated Matte Black Finish'],
+        minOrder: '20 units'
+      },
+
+      // image copy 12.png = (catalogue item)
+      {
+        name: 'Iron Craft Series — Collection 12',
+        image: 'image copy 12.png',
+        badge: 'Classic', badgeClass: '',
+        category: 'Home Decor', material: 'Wrought Iron',
+        title: 'Iron Craft — Series 12',
+        variant: 'Handcrafted — Matte Black',
+        description: 'A handcrafted wrought iron piece from our classic series, combining traditional ironwork technique with a contemporary matte black finish. Suitable for indoor display and outdoor garden settings.',
+        features: ['Handcrafted Wrought Iron', 'Matte Black Powder Coat', 'Traditional Ironwork Detailing', 'Indoor & Outdoor Use'],
+        minOrder: '20 units'
+      },
+
+      // image copy 13.png = (catalogue item)
+      {
+        name: 'Iron Craft Series — Collection 13',
+        image: 'image copy 13.png',
+        badge: 'Popular', badgeClass: 'new',
+        category: 'Home Decor', material: 'Wrought Iron',
+        title: 'Iron Craft — Series 13',
+        variant: 'Handcrafted — Matte Black',
+        description: 'Part of our popular iron craft series with refined ironwork detailing and a durable matte black finish. A versatile addition to gardens, patios, and interior décor.',
+        features: ['Refined Ironwork Construction', 'Durable Matte Black Finish', 'Versatile Indoor & Outdoor Use', 'Custom Sizes Available'],
+        minOrder: '20 units'
+      },
+
+      // image copy 14.png = (catalogue item)
+      {
+        name: 'Iron Craft Series — Collection 14',
+        image: 'image copy 14.png',
+        badge: 'Bestseller', badgeClass: '',
+        category: 'Home Decor', material: 'Wrought Iron',
+        title: 'Iron Craft — Series 14',
+        variant: 'Artisan Finish — Premium Black',
+        description: 'A bestselling iron craft piece with artisan-quality construction and a rich premium black finish. Each unit is individually quality-checked before dispatch.',
+        features: ['Artisan Iron Construction', 'Premium Black Finish', 'Individually Quality-Checked', 'Export-Ready Packaging'],
+        minOrder: '20 units'
+      },
+
+      // image copy 15.png = (catalogue item)
+      {
+        name: 'Iron Craft Series — Collection 15',
+        image: 'image copy 15.png',
+        badge: 'New Arrival', badgeClass: 'new',
+        category: 'Home Decor', material: 'Wrought Iron',
+        title: 'Iron Craft — Series 15',
+        variant: 'New Season — Matte Black',
+        description: 'The latest addition to our iron craft series. Clean lines, a matte black powder-coat finish, and construction built to withstand outdoor conditions year-round.',
+        features: ['New Season Design', 'Clean Line Ironwork', 'Weather-Resistant Powder Coat', 'Suitable for Patios & Gardens'],
+        minOrder: '20 units'
+      },
+
+      // image copy 17.png = (catalogue item)
+      {
+        name: 'Iron Craft Series — Collection 17',
+        image: 'image copy 17.png',
+        badge: 'Premium', badgeClass: 'premium',
+        category: 'Home Decor', material: 'Cast Iron',
+        title: 'Iron Craft — Series 17',
+        variant: 'Premium Edition — Matte Black',
+        description: 'A premium-edition cast iron piece from our signature series. Heavier gauge construction with an immaculate matte black finish, designed for buyers who demand aesthetic quality and lasting durability.',
+        features: ['Heavy-Gauge Cast Iron', 'Premium Matte Black Finish', 'Heavier-Gauge Build', 'Ideal for Luxury Projects'],
+        minOrder: '20 units'
+      },
+
+      // image copy 18.png = (catalogue item)
+      {
+        name: 'Iron Craft Series — Collection 18',
+        image: 'image copy 18.png',
+        badge: 'Bestseller', badgeClass: '',
+        category: 'Home Decor', material: 'Wrought Iron',
+        title: 'Iron Craft — Series 18',
+        variant: 'Classic Craftsmanship — Matte Black',
+        description: 'A classic ironwork piece with timeless design appeal, crafted using traditional wrought iron techniques and finished in matte black. Adds a refined, enduring character to any space.',
+        features: ['Traditional Wrought Iron Technique', 'Timeless Design Appeal', 'Matte Black Finish', 'Long-Lasting Durability'],
+        minOrder: '20 units'
+      },
+
+      // image copy 19.png = (catalogue item)
+      {
+        name: 'Iron Craft Series — Collection 19',
+        image: 'image copy 19.png',
+        badge: 'Popular', badgeClass: 'new',
+        category: 'Home Decor', material: 'Wrought Iron',
+        title: 'Iron Craft — Series 19',
+        variant: 'Popular Pick — Matte Black',
+        description: 'One of our most requested iron craft pieces. Compact yet impactful, this wrought iron item is popular with retail buyers for its versatility in both indoor and outdoor settings.',
+        features: ['Compact Versatile Design', 'Wrought Iron Construction', 'Popular with Retail Buyers', 'Matte Black Powder Coat'],
+        minOrder: '20 units'
+      },
+
+      // image copy 20.png = (catalogue item)
+      {
+        name: 'Iron Craft Series — Collection 20',
+        image: 'image copy 20.png',
+        badge: 'Premium', badgeClass: 'premium',
+        category: 'Home Decor', material: 'Cast Iron',
+        title: 'Iron Craft — Series 20',
+        variant: 'Signature Premium — Matte Black',
+        description: 'The signature premium piece of our iron craft catalogue. Built from thick-gauge cast iron with an immaculate matte black finish — a flagship item for wholesale buyers seeking the best.',
+        features: ['Thick-Gauge Cast Iron', 'Immaculate Matte Black Finish', 'Flagship Catalogue Item', 'Premium Export Packaging'],
+        minOrder: '20 units'
+      },
+       {
+        name: 'Teak Folding Deck Chair — Olive Stripe',
+        image: 'image.png',
+        badge: 'Bestseller', badgeClass: '',
+        category: 'Deck Chair', material: 'Premium Teak',
+        title: 'Teak Folding Deck Chair',
+        variant: 'Olive & Cream Stripe Canvas — Flat Armrests',
+        description: 'A classic teak folding deck chair with a relaxed sling seat in olive and cream stripe canvas, solid flat teak armrests, and a sturdy cross-brace base. Folds flat for easy transport and storage.',
+        features: ['Solid Grade-A Teak Frame', 'Olive & Cream Stripe Canvas Sling', 'Flat Teak Armrests', 'Foldable Cross-Brace Base'],
+        minOrder: '20 units'
+      },
+      {
+        name: 'Beach Chair & Fringe Umbrella Set — Sky Blue',
+        image: 'image copy.png',
+        badge: 'Popular', badgeClass: 'new',
+        category: 'Beach Set', material: 'Teak + Canvas',
+        title: 'Beach Chair & Fringe Umbrella Set',
+        variant: 'Sky Blue Stripe — 2 Chairs + 1 Fringe Umbrella',
+        description: 'A complete resort beach set with two teak high-back reclining chairs in sky blue stripe canvas and a large matching fringe umbrella on a hardwood tilt-adjust pole. Built-in headrest pillows make this a hospitality favourite.',
+        features: ['2 Teak Chairs + 1 Fringe Umbrella', 'Sky Blue Stripe Canvas', 'Built-In Headrest Pillow', 'Adjustable Reclining Backrest'],
+        minOrder: '20 sets'
+      },
+       {
+        name: 'Beach Chair & Fringe Umbrella Set — Sky Blue (Bulk)',
+        image: 'image copy 2.png',
+        badge: 'New Arrival', badgeClass: 'new',
+        category: 'Beach Set', material: 'Teak + Canvas',
+        title: 'Beach Chair & Fringe Umbrella Set',
+        variant: 'Sky Blue Stripe — Bulk Supply Edition',
+        description: 'The same premium resort beach set available for bulk contracts. Two teak high-back chairs in sky blue stripe canvas with a large fringe umbrella on a hardwood tilt-adjust pole. Ideal for large hotel and resort orders.',
+        features: ['2 Teak Chairs + 1 Fringe Umbrella', 'Adjustable Tilt Hardwood Pole', 'UV-Fast Sky Blue Stripe Canvas', 'Stackable Chair Frames'],
+        minOrder: '20 sets'
+      },
+
+
+    ];
+
+    function renderViewAllProducts() {
+      const grid = document.getElementById('viewAllGrid');
+      if (!grid) return;
+      grid.innerHTML = viewAllProducts.map(product => `
+        <div class="va-card">
+          <div class="va-img">
+            <img src="${product.image}" alt="${product.title}" />
+            <span class="product-badge ${product.badgeClass}">${product.badge}</span>
+          </div>
+          <div class="va-info">
+            <div class="va-tags">
+              <span class="product-category">${product.category}</span>
+              <span class="product-material">${product.material}</span>
+            </div>
+            <h3>${product.title}</h3>
+            <p class="va-variant">${product.variant}</p>
+            <p class="va-desc">${product.description}</p>
+            <ul class="va-features">
+              ${product.features.map(feature => `<li><i class="fa-solid fa-check"></i> ${feature}</li>`).join('')}
+            </ul>
+            <div class="va-moq"><i class="fa-solid fa-box"></i> Min. Order: <strong>${product.minOrder}</strong></div>
+            <div class="va-actions">
+              <button class="btn-cart" onclick="addToCart('${product.name.replace(/'/g, "\\'")}', '${product.image}'); updateViewAllCartBadge()">
+                <i class="fa-solid fa-cart-plus"></i> Add to Cart
+              </button>
+              <button class="btn-query" onclick="closeViewAll(); openModal('${product.name.replace(/'/g, "\\'")}')">
+                Query Now <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      `).join('');
+      const count = document.querySelector('.view-all-count');
+      if (count) count.textContent = `${viewAllProducts.length} Items`;
+    }
+
+    function openViewAll() {
+      renderViewAllProducts();
+      updateViewAllCartBadge();
+      document.getElementById('viewAllOverlay').classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeViewAll() {
+      document.getElementById('viewAllOverlay').classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    function handleViewAllClick(e) {
+      if (e.target === document.getElementById('viewAllOverlay')) closeViewAll();
+    }
+
+    function updateViewAllCartBadge() {
+      const total = cart.reduce((sum, i) => sum + i.qty, 0);
+      const badge = document.getElementById('viewAllCartCount');
+      if (badge) badge.textContent = total;
+    }
+
+    // Init: hide badge on load
+    updateCartCount();
+    updateViewAllCartBadge();
+    renderViewAllProducts();
+  </script>
+
+</body>
+
+</html>
