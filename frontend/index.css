@@ -175,6 +175,13 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   align-items: center;
   gap: 40px;
 }
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+
+}
 .logo {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.5rem;
